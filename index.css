@@ -1,0 +1,26 @@
+* {
+  font-family: helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+ul > li {
+  padding: 2em;
+  margin-top: 3em;
+  color: white;
+}
+
+li > a {
+  padding: 2em;
+  margin-top: 3em;
+  color: white;
+  transition: all .2s ease-in;
+}
+
+li > a:focus {
+  background-color: black;
+  color: white;
+  margin-left: 1em;
+}
